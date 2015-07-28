@@ -14,6 +14,8 @@
 		C64949BD1B6770450092053A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C64949BC1B6770450092053A /* Images.xcassets */; };
 		C64949C01B6770450092053A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C64949BE1B6770450092053A /* LaunchScreen.xib */; };
 		C64949CC1B6770450092053A /* _1______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C64949CB1B6770450092053A /* _1______Tests.m */; };
+		C6494A091B67738D0092053A /* YLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6494A081B67738D0092053A /* YLineView.m */; };
+		C6494A0C1B677AC20092053A /* YShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6494A0B1B677AC20092053A /* YShapeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		C64949C51B6770450092053A /* 01画线段和矩形Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01画线段和矩形Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C64949CA1B6770450092053A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C64949CB1B6770450092053A /* _1______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1______Tests.m"; sourceTree = "<group>"; };
+		C6494A071B67738D0092053A /* YLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLineView.h; sourceTree = "<group>"; };
+		C6494A081B67738D0092053A /* YLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLineView.m; sourceTree = "<group>"; };
+		C6494A0A1B677AC20092053A /* YShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YShapeView.h; sourceTree = "<group>"; };
+		C6494A0B1B677AC20092053A /* YShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YShapeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,10 @@
 				C64949BC1B6770450092053A /* Images.xcassets */,
 				C64949BE1B6770450092053A /* LaunchScreen.xib */,
 				C64949AF1B6770450092053A /* Supporting Files */,
+				C6494A071B67738D0092053A /* YLineView.h */,
+				C6494A081B67738D0092053A /* YLineView.m */,
+				C6494A0A1B677AC20092053A /* YShapeView.h */,
+				C6494A0B1B677AC20092053A /* YShapeView.m */,
 			);
 			path = "01画线段和矩形";
 			sourceTree = "<group>";
@@ -221,6 +231,8 @@
 			files = (
 				C64949B81B6770450092053A /* ViewController.m in Sources */,
 				C64949B51B6770450092053A /* AppDelegate.m in Sources */,
+				C6494A091B67738D0092053A /* YLineView.m in Sources */,
+				C6494A0C1B677AC20092053A /* YShapeView.m in Sources */,
 				C64949B21B6770450092053A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +428,7 @@
 				C64949D11B6770450092053A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C64949D21B6770450092053A /* Build configuration list for PBXNativeTarget "01画线段和矩形Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				C64949D41B6770450092053A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
